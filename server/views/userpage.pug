@@ -1,0 +1,9 @@
+html
+    body 
+        div USER HOME PAGE 
+        div WELCOM 
+        strong=user.firstname+user.lastname
+        ul 
+            each val in connected 
+                if(val)
+                    li=JSON.stringify(val)
